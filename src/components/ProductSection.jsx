@@ -28,7 +28,7 @@ export const ProductSection = () => {
 
         <h1>Fall Limited Edition Sneakers</h1>
 
-        <p>These lów-profile sneakers are your perfect casual wear companion. Featuring a 
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
         durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
 
         <strong>$125.00</strong>
@@ -38,11 +38,11 @@ export const ProductSection = () => {
 
         <div>
             <div>
-              <button><img src={minus} alt="Minus icon" /></button>
+              <button onClick={decrease}><img src={minus} alt="Minus icon" /></button>
               <span>{quantity}</span>
-              <button><img src={plus} alt="Plus icon" /></button>
+              <button onClick={increase}><img src={plus} alt="Plus icon" /></button>
             </div>
-            <button><img src={cart} alt="Cart icon" />Add tocart</button>
+            <button><img src={cart} alt="Cart icon" />Add to cart</button>
         </div>
     </div>
   )
