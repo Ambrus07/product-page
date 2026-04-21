@@ -1,27 +1,23 @@
+import ImageCarousel from "./components/Carousel"
+import Navbar from "./components/Navbar"
+import { ProductSection } from "./components/ProductSection"
+
 const App = () => {
   return (
-    <div>
-      Collections
-  Men
-  Women
-  About
-  Contact
+    <main>
+      <Navbar/>
 
-  Sneaker Company
+      <section className="contentWrapper">
+        <ImageCarousel/>
 
-  Fall Limited Edition Sneakers
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+        <ProductSection/>
 
-  $125.00
-  50%
-  $250.00
 
-  0
-  Add to cart
+      </section>
+      
 
-    </div>
+    </main>
   )
 }
 
